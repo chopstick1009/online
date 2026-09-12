@@ -1,0 +1,14 @@
+{
+  "enabledCssSnippets": [
+    "prism",
+    "anime-background"
+  ],
+  "baseFontSizeAction": true,
+  "baseFontSize": 18,
+  "showRibbon": false,
+  "theme": "obsidian",
+  "cssTheme": "",
+  "accentColor": "#9995a3",
+  "textFontFamily": "",
+  "showViewHeader": true
+}

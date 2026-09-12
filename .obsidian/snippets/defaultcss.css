@@ -1,0 +1,84 @@
+/*
+ * =======================================================
+ * Dracula Code Theme for Obsidian (Live Preview & Reading)
+ * =======================================================
+ */
+.theme-dark .markdown-source-view.is-live-preview .cm-s-obsidian .HyperMD-codeblock,
+.theme-dark .markdown-preview-view pre>code,
+.theme-light .markdown-source-view.is-live-preview .cm-s-obsidian .HyperMD-codeblock,
+.theme-light .markdown-preview-view pre>code {
+    background-color: #282a36 !important; /* 背景色 */
+    color: #f8f8f2 !important; /* 默认文字颜色 */
+    text-shadow: none !important;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #6272a4; /* 注释 */
+}
+
+.token.punctuation {
+    color: #f8f8f2; /* 标点 */
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+    color: #ff79c6; /* 紫色 */
+}
+
+.token.boolean,
+.token.number {
+    color: #bd93f9; /* 紫罗兰色 */
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+    color: #50fa7b; /* 绿色 */
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+    color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+    color: #8be9fd; /* 青色 */
+}
+
+.token.keyword {
+    color: #ff79c6; /* 粉色 */
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+    color: #f1fa8c; /* 黄色 */
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}

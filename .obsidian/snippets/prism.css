@@ -1,0 +1,13 @@
+body {
+    /* --font-text-theme 是很多主題控制正文字體的變量，我們直接覆蓋它 */
+    --font-text-theme: "新宋体", sans-serif !important;
+
+    /* 為了確保萬無一失，再把主要字體也直接指定一遍 */
+    font-family: "新宋体", sans-serif !important;
+}
+
+/* 強制修改編輯器和預覽模式的字體 */
+.markdown-source-view,
+.markdown-preview-view {
+    font-family: var(--font-text-theme) !important;
+}

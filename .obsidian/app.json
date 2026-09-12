@@ -1,0 +1,19 @@
+{
+  "promptDelete": false,
+  "livePreview": true,
+  "autoPairMarkdown": true,
+  "strictLineBreaks": false,
+  "showLineNumber": false,
+  "attachmentFolderPath": "./",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "useTab": true,
+  "showUnsupportedFiles": true
+}

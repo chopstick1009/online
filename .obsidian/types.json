@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "多舒服": "date",
+    "日期": "number",
+    "date": "text",
+    "type": "text"
+  }
+}

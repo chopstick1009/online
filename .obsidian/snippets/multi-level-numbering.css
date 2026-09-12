@@ -1,0 +1,46 @@
+/*
+ * =======================================================
+ * Obsidian 多级列表自动编号 - 终极兼容版
+ * 针对实时预览和阅读模式进行强力优化
+ * =======================================================
+ */
+
+body {
+    --list-indent: 2.5em; /* 定义一个变量，方便统一调整缩进距离 */
+}
+
+/* --- 核心规则 --- */
+ol {
+    list-style-type: none !important; /* 强制禁用原始的数字点 */
+    counter-reset: item !important;
+    padding-left: var(--list-indent) !important;
+}
+
+ol > li {
+    display: block !important;
+    position: relative !important;
+}
+
+ol > li::before {
+    content: counters(item, ".") ". " !important; /* 使用 counters 生成 1.1.1. 格式，并强制生效 */
+    counter-increment: item !important;
+
+    /* 定位和对齐 */
+    position: absolute !important;
+    left: calc(-1 * var(--list-indent)) !important;
+    width: calc(var(--list-indent) - 0.5em) !important; /* 预留右边距 */
+    text-align: right !important;
+
+    /* 外观 */
+    color: var(--text-muted) !important; /* 使用柔和的颜色，并强制生效 */
+    font-variant-numeric: tabular-nums; /* 让数字等宽，更好看 */
+}
+
+/* --- 专门针对实时预览模式的强力修正 --- */
+
+/* 彻底隐藏实时预览模式下自带的那个原始数字 */
+.HyperMD-list-line .cm-formatting-list-ol {
+   display: inline-block !important;
+   width: 0px !important;
+   visibility: hidden !important;
+}
