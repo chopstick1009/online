@@ -68,6 +68,33 @@
     "debugMode": false
   },
   "cachedCounts": {
+    "README.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 1,
+      "wordCount": 4,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.013333333333333334,
+      "characterCount": 8,
+      "nonWhitespaceCharacterCount": 7,
+      "newlineCount": 1,
+      "readingTimeInMinutes": 0.008,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1789219862724,
+      "modifiedDate": 1789227968954,
+      "sizeInBytes": 16,
+      "sessionStart": {
+        "noteCount": 1,
+        "pageCount": 0.013333333333333334,
+        "wordCount": 4,
+        "characterCount": 8,
+        "nonWhitespaceCharacterCount": 7,
+        "newlineCount": 1
+      }
+    },
     "2026/09/12.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -88,31 +115,31 @@
       "sizeInBytes": 4111,
       "sessionStart": {
         "noteCount": 1,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
+        "pageCount": 3.8433333333333333,
+        "wordCount": 1153,
+        "characterCount": 1523,
+        "nonWhitespaceCharacterCount": 1405,
+        "newlineCount": 44
       }
     },
-    "README.md": {
+    "2026/09/13.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 1,
-      "wordCount": 4,
+      "wordCount": 298,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.013333333333333334,
-      "characterCount": 8,
-      "nonWhitespaceCharacterCount": 7,
-      "newlineCount": 1,
-      "readingTimeInMinutes": 0.008,
+      "pageCount": 0.9933333333333333,
+      "characterCount": 392,
+      "nonWhitespaceCharacterCount": 365,
+      "newlineCount": 11,
+      "readingTimeInMinutes": 0.6048679245283018,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
-      "createdDate": 1789219862724,
-      "modifiedDate": 1789227968954,
-      "sizeInBytes": 16,
+      "createdDate": 1789383025483,
+      "modifiedDate": 1789385970128,
+      "sizeInBytes": 1076,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,

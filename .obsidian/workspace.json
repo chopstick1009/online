@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026/09/12.md",
+                "file": "2026/09/13.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "12"
+              "title": "13"
             }
           }
         ]
@@ -87,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026/09/12.md",
+                "file": "2026/09/13.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -115,8 +115,9 @@
   },
   "active": "ba8081faf214404f",
   "lastOpenFiles": [
-    "README.md",
     "2026/09/12.md",
+    "2026/09/13.md",
+    "README.md",
     "未命名.md",
     "02_日记/2026/09/屏幕截图 2026-08-14 213445.png",
     "02_日记/2026/09/Snipaste_2026-09-05_20-06-03.png",
@@ -145,7 +146,6 @@
     "03_杂/Codex/写作文风调整/Skill/restrained-conversation/SKILL.zh.tmp.md",
     "03_杂/Codex/写作文风调整/Skill/restrained-conversation/references/thinking-together.md",
     "03_杂/Codex/写作文风调整/Skill/restrained-conversation/references/literary-corpus.md",
-    "03_杂/Codex/写作文风调整/Skill/restrained-conversation/references/dialogue-rules.md",
     "03_杂/Codex/写作文风调整/Skill/restrained-conversation/references/文学摘抄/06_哲理",
     "03_杂/Codex/写作文风调整/Skill/restrained-conversation/references/文学摘抄/05_语流顺畅",
     "03_杂/Codex/写作文风调整/Skill/restrained-conversation/references/文学摘抄/02_景",
